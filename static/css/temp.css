@@ -1038,6 +1038,21 @@ article ul li li li {
 	list-style: square outside;
 }
 
+#avatar {
+  background-image: url('http://www.gravatar.com/avatar/100788a81c55bf038fb0798e264e2ec9.png?s=400');
+  background-size: cover;
+  height: 134px;
+  width: 134px;
+  display: block;
+  border-radius: 50%;
+  margin-bottom: 8px;
+  border: 2px solid #999;
+  opacity: 0.8;
+  -webkit-transition:all 500ms ease-in;
+  -moz-transition:all 500ms ease-in;
+  -o-transition:all 500ms ease-in;
+}
+
 #social li {
   display: inline-block;
   font-size: 22px;
